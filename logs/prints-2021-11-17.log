@@ -1,0 +1,8 @@
+20:17:35.418 [main] INFO  resources.base - Success enter browser
+20:18:18.300 [main] INFO  resources.base - Success Login
+20:20:05.468 [main] INFO  resources.base - Success update Outlet
+20:21:23.141 [main] INFO  resources.base - Success update Profile
+20:23:07.350 [main] INFO  resources.base - Success login-ScenarioLoginPage
+20:26:03.256 [main] INFO  resources.base - Success login-ScenarioOutletPage
+20:28:36.191 [main] INFO  resources.base - Success update Outlet-ScenarioOutletPage
+20:31:47.713 [main] INFO  resources.base - Success login-ScenarioProfilePage

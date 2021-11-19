@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="794834" started-at="2021-11-17T17:05:51 ICT" finished-at="2021-11-17T17:19:06 ICT">
+    <groups>
+    </groups>
+    <test name="Scenario Full Testing" duration-ms="291546" started-at="2021-11-17T17:05:51 ICT" finished-at="2021-11-17T17:10:42 ICT">
+      <class name="qasirTesting.NavigateFullTesting">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:qasirTesting.NavigateFullTesting@3cce5371]" name="initialize" is-config="true" duration-ms="59957" started-at="2021-11-17T17:05:51 ICT" finished-at="2021-11-17T17:06:51 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navigateToEnd2End()[pri:0, instance:qasirTesting.NavigateFullTesting@3cce5371]" name="navigateToEnd2End" duration-ms="231309" started-at="2021-11-17T17:06:51 ICT" finished-at="2021-11-17T17:10:42 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToEnd2End -->
+      </class> <!-- qasirTesting.NavigateFullTesting -->
+    </test> <!-- Scenario Full Testing -->
+    <test name="Login Testing" duration-ms="144295" started-at="2021-11-17T17:10:44 ICT" finished-at="2021-11-17T17:13:08 ICT">
+      <class name="qasirTesting.NavigateLoginPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:qasirTesting.NavigateLoginPage@7a6d7e92]" name="initialize" is-config="true" duration-ms="62355" started-at="2021-11-17T17:10:44 ICT" finished-at="2021-11-17T17:11:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navigationToLogin()[pri:0, instance:qasirTesting.NavigateLoginPage@7a6d7e92]" name="navigationToLogin" duration-ms="81938" started-at="2021-11-17T17:11:46 ICT" finished-at="2021-11-17T17:13:08 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationToLogin -->
+      </class> <!-- qasirTesting.NavigateLoginPage -->
+    </test> <!-- Login Testing -->
+    <test name="Outlet Testing" duration-ms="215394" started-at="2021-11-17T17:13:08 ICT" finished-at="2021-11-17T17:16:44 ICT">
+      <class name="qasirTesting.NavigateOutletPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:qasirTesting.NavigateOutletPage@16150369]" name="initialize" is-config="true" duration-ms="37133" started-at="2021-11-17T17:13:08 ICT" finished-at="2021-11-17T17:13:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navigationToOutlet()[pri:0, instance:qasirTesting.NavigateOutletPage@16150369]" name="navigationToOutlet" duration-ms="178257" started-at="2021-11-17T17:13:45 ICT" finished-at="2021-11-17T17:16:44 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationToOutlet -->
+      </class> <!-- qasirTesting.NavigateOutletPage -->
+    </test> <!-- Outlet Testing -->
+    <test name="Profile Testing" duration-ms="141968" started-at="2021-11-17T17:16:44 ICT" finished-at="2021-11-17T17:19:06 ICT">
+      <class name="qasirTesting.NavigateProfilePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:qasirTesting.NavigateProfilePage@23f5b5dc]" name="initialize" is-config="true" duration-ms="32914" started-at="2021-11-17T17:16:44 ICT" finished-at="2021-11-17T17:17:17 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navigationToProfile()[pri:0, instance:qasirTesting.NavigateProfilePage@23f5b5dc]" name="navigationToProfile" duration-ms="109052" started-at="2021-11-17T17:17:17 ICT" finished-at="2021-11-17T17:19:06 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationToProfile -->
+      </class> <!-- qasirTesting.NavigateProfilePage -->
+    </test> <!-- Profile Testing -->
+  </suite> <!-- Suite -->
+</testng-results>

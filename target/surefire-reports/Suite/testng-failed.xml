@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="qasirTesting.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Scenario Full Testing(failed)">
+    <classes>
+      <class name="qasirTesting.NavigateFullTesting">
+        <methods>
+          <include name="navigateToEnd2End"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- qasirTesting.NavigateFullTesting -->
+    </classes>
+  </test> <!-- Scenario Full Testing(failed) -->
+  <test thread-count="5" verbose="0" name="Login Testing(failed)">
+    <classes>
+      <class name="qasirTesting.NavigateLoginPage">
+        <methods>
+          <include name="initialize"/>
+          <include name="navigationToLogin"/>
+        </methods>
+      </class> <!-- qasirTesting.NavigateLoginPage -->
+    </classes>
+  </test> <!-- Login Testing(failed) -->
+  <test thread-count="5" verbose="0" name="Outlet Testing(failed)">
+    <classes>
+      <class name="qasirTesting.NavigateOutletPage">
+        <methods>
+          <include name="navigationToOutlet"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- qasirTesting.NavigateOutletPage -->
+    </classes>
+  </test> <!-- Outlet Testing(failed) -->
+  <test thread-count="5" verbose="0" name="Profile Testing(failed)">
+    <classes>
+      <class name="qasirTesting.NavigateProfilePage">
+        <methods>
+          <include name="initialize"/>
+          <include name="navigationToProfile"/>
+        </methods>
+      </class> <!-- qasirTesting.NavigateProfilePage -->
+    </classes>
+  </test> <!-- Profile Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
